@@ -21,6 +21,7 @@
 
 // fun2();
 
+
 // arguments to functions 
 
 const addNums = (i, j) => {
