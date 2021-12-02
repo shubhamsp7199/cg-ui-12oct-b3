@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+    <style>
+        .h4 {
+
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+        <br />
+        <h1 style="color: chartreuse;">HTML, CSS, Bootstrap</h1>
+        <br />
+
+        <br />
+        <!-- Button  -->
+        <h4>Button</h4>
+        <button class="bg-dark text-light" onclick="alert ( 'you clicked the button' );">click me</button>
+
+        <br />
+        <hr />
+        <br />
+        <!-- paragraph with define width -->
+        <h4>paragraph with define width</h4>
+        <p style="width: 50%;">This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This
+            is a paragraph. This is a paragraph.
+            This is a paragraph. This is a paragraph. This is a paragraph.
+            This is a paragraph. This is a paragraph. This is a paragraph.
+            This is a paragraph. This is a paragraph. This is a paragraph.
+            This is a paragraph. This is a paragraph. This is a paragraph.
+        </p>
+
+
+        <br />
+        <hr />
+        <br />
+        <!-- Anchor tag  -->
+        <!-- reference link  -->
+        <h4>
+            Anchor tag <br />
+            reference link
+        </h4>
+        <a href="https://www.youtube.com/" class="display-4 text-white bg-danger border border-dark rounded">YouTube</a>
+
+
+        <br />
+        <hr />
+        <br />
+        <!-- aside paragraph  -->
+        <h4>aside paragraph</h4>
+        <p>
+        <aside style="color: chartreuse; background-color: black; float: left; width: 250px; border: 1px solid black;">
+            Download Bootstrap to get
+            the compiled CSS and JavaScript, source code.<br />
+            ~Download bootstrap
+        </aside>
+        Download ready-to-use compiled code for Bootstrap v4.6.1 to easily drop into your project, which includes:
+
+        Compiled and minified CSS bundles (see CSS files comparison)
+        Compiled and minified JavaScript plugins (see JS files comparison)
+        This doesn’t include documentation, source files, or any optional JavaScript dependencies (jQuery and Popper).
+        </p>
+
+        <br />
+        <hr />
+        <br />
+        <!-- forms- Dropdown -->
+        <h4> forms- Dropdown</h4>
+        <div>
+            <label for="service">Crud operation</label>
+            <select id="service" name="service">
+                <option value="1">create</option>
+                <option value="2">read</option>
+                <option selected value="3">update</option>
+                <option value="4">delete</option>
+            </select>
+        </div>
+
+        <br />
+        <hr />
+        <br />
+        <!-- forms- text Area -->
+        <h4> forms- Textarea</h4>
+        <div>
+            <label for="message">message</label>
+            <div id="message">
+                <textarea id="message" name="message" rows="5">Hello</textarea>
+            </div>
+        </div>
+
+        <br />
+        <hr />
+        <br />
+        <!-- forms- Radio button -->
+        <h4> forms- Radio button</h4>
+        <div>
+            <label  for="Choose Course" class="border border-dark" style="color: darkblue;">Choose Course</label><br/>
+            <label><input type="radio" value="Core Java" name="Choose course">Core Java</label>
+            <label><input type="radio" value="SQL" name="Choose course">SQL</label>
+        </div>
+
+
+        <br />
+        <hr />
+        <br />
+        <!-- forms- Check Boxes -->
+        <h4> forms- Check Boxes</h4>
+        <div>
+            <label  class="border border-dark" style="color: darkblue;">Fronten tools</label><br/>
+            <label><input type="checkbox" value="HTML" name="Choose course">HTML</label>
+            <label><input type="checkbox" value="CSS" name="Choose course">CSS</label>
+            <label><input type="checkbox" value="Springboot" name="Choose course">Springboot</label>
+        </div>
+
+        <br />
+        <hr />
+        <br />
+        <!-- forms- File input -->
+        <h4> forms- File input</h4>
+        <label for="resume">Resume</label><br/>
+        <input type="file" multiple id="resume" name="resume"/>
+
+
+        <br />
+        <hr />
+        <br />
+        <!-- input type- email -->
+        <h4> input type- email</h4>
+        <div>
+            <label for="email">Email ID-</label>
+            <input type="email" id="primary email" name="primary email">
+        </div>
+        <input type="submit">       
+       
+       
+       
+       
+        <br/>
+        <br/>
+        <br/>
+    </div>
+</body>
+
+</html>
